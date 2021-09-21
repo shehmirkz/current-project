@@ -1,0 +1,315 @@
+
+.header {
+    background-color: #342f57;
+    position: relative;
+}
+
+.navbar {
+    padding: 10px 0 0 0 !important;
+}
+
+.nav-icon {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.form-bar {
+    width: 315px;
+}
+
+.right-search {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.397);
+    bottom: 0;
+    top: 41px;
+    left: 768px;
+    right: 0;
+}
+
+.left-search {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.397);
+    top: 40px;
+    bottom: 0;
+    left: 1030px;
+    right: 0;
+}
+
+.rounded-pill {
+    background: #2e2c4c !important;
+}
+
+li {
+    margin-right: 15px;
+}
+dashboard {
+    filter: grayscale(100%);
+}
+
+.border-left {
+    border-right: 1px solid gray;
+}
+
+.link-text {
+    margin-left: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.gray-icon {
+    margin-left: 90px;
+}
+
+.line-break {
+    background-color: gray;
+    height: 2px;
+}
+
+.sub-navbar {
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-transparent {
+    color: #fff !important;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.bg-transparent:hover {
+    background: #fff !important;
+    color: #6f91f2 !important;
+    outline: none;
+}
+
+
+.menu-section {
+    padding: 20px 0;
+}
+
+.menu-text {
+    padding-top: 10px;
+}
+
+.splitter-section {
+    background: #f0edf4;
+}
+
+.bg-white {
+    color: black !important;
+    cursor: pointer;
+}
+.bg-white:hover {
+    background-color: #6f91f2 !important;
+    color: #fff !important;
+}
+
+.table-heading {
+    background: #342f57;
+    color: #fff;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color:  #fff;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #6f91f2;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #6f91f2;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border-top: none;
+  }
+
+  .p-3 {
+      border: 1px solid rgba(128, 128, 128, 0.171);
+      border-radius: 8px;
+  }
+
+  .new-comment {
+      margin-right: 20px;
+      list-style: none;
+      text-decoration: none;
+      border-right: 2px solid #6f91f2;
+      padding-right: 15px;
+  }
+
+  .remove-comment {
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .folder-img {
+      margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1300px ) {
+    li {
+        margin-right: 5px;
+    }
+
+    .right-search {
+        position: absolute;
+        color: gray;
+        bottom: 0;
+        top: 39px;
+        left: 661px;
+        right: 0;
+    }
+    .left-search {
+        position: absolute;
+        color: gray;
+        top: 39px;
+        bottom: 0;
+        left: 891px;
+        right: 0;
+    }
+
+    .link-text {
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .bg-transparent {
+        color: #fff !important;
+        margin-right: 50px;
+    }
+
+    .gray-icon {
+        margin-left: 20px;
+    }
+
+    .menu-text {
+        font-size: 12px;
+    }
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+    li {
+        margin-right: 2px;
+    }
+
+    .right-search {
+        position: absolute;
+        color: gray;
+        bottom: 0;
+        top: 39px;
+        left: 625px;
+        right: 0;
+    }
+    .left-search {
+        position: absolute;
+        color: gray;
+        top: 39px;
+        bottom: 0;
+        left: 849px;
+        right: 0;
+    }
+
+    .link-text {
+        margin-left: 32px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .gray-icon {
+        margin-left: 0px;
+    }
+
+    .bg-transparent {
+        color: #fff !important;
+        margin-right: 20px;
+    }
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+    
+   
+
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .table {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 10px;
+    }
+
+    .bg-white {
+        font-size: 10px;
+    }
+
+
+}
