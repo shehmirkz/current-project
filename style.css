@@ -123,10 +123,19 @@ li {
 }
 
 
-.tab-button {
-    margin-right: 45px;
+.tab-buttons {
+    margin-right: 20px;
+    padding: 10px 35px !important;
+    background: #342f57 !important;
     color: #fff !important;
+    cursor: pointer;
 }
+
+.tab-buttons:hover{
+    color: #6f91f2 !important;
+    background: #fff !important;
+}
+
 
 
 .menu-text {
@@ -135,11 +144,24 @@ li {
     font-size: 14px;
 }
 
+
 .menu-image {
     width: 19%;
     height: 30% !important;
     margin-top: 5px;
+    
 }
+
+
+#menuhover {
+    cursor: pointer;
+}
+
+#menuhover:hover {
+    background: rgba(211, 211, 211, 0.199);
+    border-bottom: 2px solid #6f91f2;
+}
+
 
 .splitter-section {
     background: #f0edf4;
@@ -163,7 +185,7 @@ li {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 8px 8px 0 0;
     background-color:  #fff;
   }
   
@@ -177,7 +199,7 @@ li {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-    border-radius: 10px;
+    border-radius: 8px 8px 0 0;
   }
   
   /* Change background color of buttons on hover */
@@ -194,7 +216,7 @@ li {
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border-radius: 10px;
+    border-radius: 8px 8px 0 0;
     border-top: none;
   }
 
