@@ -404,20 +404,11 @@ li {
     }
 
     .right-search {
-        position: absolute;
-        color: gray;
-        bottom: 0;
-        top: 28px;
-        left: 565px;
-        right: 0;
+       display: none;
     }
+
     .left-search {
-        position: absolute;
-        color: #6b8be8;
-        top: 18px;
-        bottom: 0;
-        left: 744px;
-        right: 0;
+        display: none;
     }
 
     .search-bar {
@@ -457,7 +448,55 @@ li {
     .border-left {
         display: none !important;
     }
+
+    .tab-button {
+        margin-right: 7px;
+        color: #fff !important;
+    }
   
+    .navbar-nav .nav-icon {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.397);
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-bar .search-bar {
+        display: none !important;
+    }
+
+    .left-search {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .link-text {
+        display: none;
+    }
+
+    .border-left {
+        display: none !important;
+    }
+
+
+    .left-nav-icon {
+        margin-left: 0px;
+    }
+
+    .border-right {
+        margin-left: 4px;
+    }
 
 
 }
@@ -465,7 +504,73 @@ li {
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 768px) {
     
+    .table {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 10px;
+    }
+
+
+    .bg-white {
+        background-color: #fff!important;
+        font-size: 10px !important;
+    }
+
    
+    .menu-image {
+        width: 10%;
+        height: 30% !important;
+        margin-top: 3px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+        list-style: none;
+    }
+
+    .form-bar .search-bar {
+        display: none !important;
+    }
+
+    .left-search {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .link-text {
+        display: none;
+    }
+
+    .border-left {
+        display: none !important;
+    }
+
+
+    .left-nav-icon {
+        margin-left: 0px;
+    }
+
+    .border-right {
+        margin-left: 4px;
+    }
+
+    .tab-button {
+        margin-right: 7px;
+        color: #fff !important;
+    }
+
+    .navbar-nav .nav-icon {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.397);
+        cursor: pointer;
+        margin-right: 10px;
+    }
 
 
 }
