@@ -13,20 +13,20 @@
 
 <body>
         <section class="header">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center align-item-center">
                         <div class="container-fluid">
                             <nav class="navbar">
-                                <div class="container">
+                                
                                 <a class="navbar-brand" href="#">
-                                    <img src="./monogram.png" alt="">
+                                    <img class="mono" src="./monogram.png" alt="">
                                 </a>
-                                </div>
+                                
                             </nav>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                                 </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-lg-0 tex">
+                            <ul class="navbar-nav mb-lg-0 tex">
 
                             <li class="nav-item">
                                 <a class="nav-link dashboard" aria-current="page" href="#"> <i class="icon-speedometer nav-icon"></i> </a>
@@ -37,7 +37,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#"> <i class="icon-compliance nav-icon"></i> </a>
+                                <a class="nav-link" aria-current="page" href="#"> <i class="icon-file-text-o nav-icon"></i> </a>
                             </li>
 
                             <li class="nav-item">
@@ -45,7 +45,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#"> <i class="icon-workflow-1 nav-icon"></i> </a>
+                                <a class="nav-link" aria-current="page" href="#"> <i class="icon-flow-tree nav-icon" nav-icon"></i> </a>
                             </li>
 
                             <li class="nav-item">
@@ -56,13 +56,14 @@
                                 <a class="nav-link" aria-current="page" href="#"> <i class="icon-workflow nav-icon"></i> </a>
                             </li>
 
-                            <div class="border-left">
-                                <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#"> <i class="icon-write-message nav-icon"></i> </a>
-                                </li>
+                            </li>
+
+                                <div class="border-left">
                             </div>
 
-                            <li class="nav-item">
+                            <li class="nav-item border-right">
                                 <a class="nav-link" aria-current="page" href="#"> <i class="icon-xls nav-icon"></i> </a>
                             </li>
 
@@ -77,72 +78,126 @@
 
                             <form class="d-flex form-bar">
                                 <i class="icon-search right-search"></i>
-                                <input class="form-control me-2 rounded-pill" type="search" aria-label="Search">
-                                    <i class="icon-login left-search"></i>
+                                <input class="form-control ms-5 search-bar" placeholder="Search" type="Search" aria-label="Search">
+                                    <i class="icon-next-page left-search"></i>
                             </form>
 
                                 <div class="link-text">
                                     <li class="nav-item">
-                                        <a href="">Current project</a>
+                                        <a class="project-name" href="">Current Project Name</a>
                                     </li>
                                 </div>
 
-                                <div class="gray-icon">
-                                    <li class="nav-item me-auto">
-                                        <a class="nav-link" aria-current="page" href="#"> <img src="./refresh.png" alt=""> </a>
-                                    </li>
-                                </div>
+                                <li class="nav-item left-nav-icon">
+                                    <a class="nav-link" aria-current="page" href="#"> <i class="icon-roundabout nav-icon"></i> </a>
+                                </li>
 
-                                    <li class="nav-item me-auto">
-                                        <a class="nav-link" aria-current="page" href="#"> <img src="./Icon msg.png" alt=""> </a>
-                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#"> <i class="icon-message nav-icon"></i> </a>
+                                </li>
 
-                                    <li class="nav-item me-auto">
-                                        <a class="nav-link" aria-current="page" href="#"> <img src="./icon add friend.png" alt=""> </a>
-                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#"> <i class="icon-followers nav-icon"></i> </a>
+                                </li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
                         <hr class="line-break">
                         
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
-                                        <button type="button" class="btn bg-transparent btn-lg">HOME</button>
-                                        <button type="button" class="btn bg-transparent btn-lg">TOOLS</button>
-                                        <button type="button" class="btn bg-transparent btn-lg">REVIEW</button>
-                                        <button type="button" class="btn bg-transparent btn-lg">HELP</button>
+
+
+
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                  <button class="nav-link tab-button" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">HOME</button>
+                                  <button class="nav-link tab-button" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">TOOLS</button>
+                                  <button class="nav-link tab-button" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">REVIEW</button>
+                                  <button class="nav-link tab-button" id="nav-help-tab" data-bs-toggle="tab" data-bs-target="#nav-help" type="button" role="tab" aria-controls="nav-help" aria-selected="false">HELP</button>
+                                </div>
+                              </nav>
+
+
+                              <div class="tab-content" id="nav-tabContent">
+
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row text-center tab-background g-0">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                            <div class="row g-0">
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-home-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-file-64.png" alt=""> <p class="menu-text">Review File</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"><img class="menu-image img-fluid" src="./icons8-checked-64.png" alt=""> <p class="menu-text">Review Select</p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"><img class="menu-image img-fluid" src="./icons8-survey-64.png" alt=""> <p class="menu-text">My Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"><img class="menu-image img-fluid" src="./icons8-add-user-male-64.png" alt=""> <p class="menu-text">Add User</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2"><img class="menu-image img-fluid" src="./icons8-delete-bin-64.png" alt=""> <p class="menu-text">Delete Review</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="row text-center tab-background">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-checked-64.png" alt=""> <p class="menu-text">Home Review</p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-survey-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-add-user-male-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-delete-bin-64.png" alt=""> <p class="menu-text">Home Review</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <div class="row text-center tab-background">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-home-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-file-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-checked-64.png" alt=""> <p class="menu-text">Home Review</p>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-survey-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-add-user-male-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-delete-bin-64.png" alt=""> <p class="menu-text">Home Review</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-help" role="tabpanel" aria-labelledby="nav-help-tab">
+                                    <div class="row text-center tab-background">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-home-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"> <img class="menu-image img-fluid" src="./icons8-file-64.png" alt=""> <p class="menu-text">Home Review</p> 
+                                                </div>
+                                                
+                                                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2"><img class="menu-image img-fluid" src="./icons8-delete-bin-64.png" alt=""> <p class="menu-text">Home Review</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
         </section>
 
 
-
-        <section class="menu-section text-center">
-            <div class="container-fluid">
-                <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                            <div class="row">
-                                <div class="col-2"> <img class="menu-image img-fluid" src="./icons8-home-64.png" alt=""> <p class="menu-text">Home Review</p> 
-                                </div>
-                                <div class="col-2"> <img class="menu-image img-fluid" src="./icons8-file-64.png" alt=""> <p class="menu-text">Home Review</p> 
-                                </div>
-                                <div class="col-2"><img class="menu-image img-fluid" src="./icons8-checked-64.png" alt=""> <p class="menu-text">Home Review</p>
-                                </div>
-                                <div class="col-2"><img class="menu-image img-fluid" src="./icons8-survey-64.png" alt=""> <p class="menu-text">Home Review</p> 
-                                </div>
-                                <div class="col-2"><img class="menu-image img-fluid" src="./icons8-add-user-male-64.png" alt=""> <p class="menu-text">Home Review</p> 
-                                </div>
-                                <div class="col-2"><img class="menu-image img-fluid" src="./icons8-delete-bin-64.png" alt=""> <p class="menu-text">Home Review</p>
-                                </div>
-                            </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
 
 
 
@@ -350,7 +405,25 @@
 
 
 
-            <script>
+       
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <script>
             function openCity(evt, cityName) {
               var i, tabcontent, tablinks;
               tabcontent = document.getElementsByClassName("tabcontent");
@@ -364,7 +437,10 @@
               document.getElementById(cityName).style.display = "block";
               evt.currentTarget.className += " active";
             }
-            </script>
+            </script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
 
